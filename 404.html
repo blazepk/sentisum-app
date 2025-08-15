@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting...</title>
+    <meta http-equiv="refresh" content="0; url=./index.html" />
+    <script>
+      // GitHub Pages SPA redirect: preserve path and query when returning to index.html
+      (function() {
+        var l = window.location;
+        var base = l.pathname.split('/').slice(0, -1).join('/') + '/';
+        var newUrl = base + 'index.html' + l.search + l.hash;
+        window.location.replace(newUrl);
+      })();
+    </script>
+  </head>
+  <body>Redirecting...</body>
+</html>
+
