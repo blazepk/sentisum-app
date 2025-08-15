@@ -118,7 +118,7 @@ const DashboardLayout: React.FC<DashboardLayoutProps> = () => {
                 Customization Mode Active
               </span>
             </div>
-            <p className="text-sm text-orange-700">Click and drag widgets to rearrange them. Use the resize handles to change widget sizes. Click "Save Layout" when you're done customizing. </p>
+            <p className="text-sm text-orange-700">Click and drag widgets to rearrange them. Use the resize handles to change widget sizes. Click "Save Layout" when you're done customizing.</p>
           </div>
         )}
 
